@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    gap: 15px;
+    background-color: #FBF7E3;
+    border-radius: 30px;
+    padding: 15px;
+    flex-basis: 300px;
+    align-items: center;
+    height: 80px;
+    max-width: 600px;
+}
+
+.container div {
+    background-color: #F3DF85;
+    color: black;
+    border-radius: 20px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container div img {
+    width: 40px;
+}
+
+.container div:nth-of-type(3) {
+    flex-grow: 2;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 40px;
+}
+
+
+.container2 {
+    width: 300px;
+    height: 330px;
+    margin: 100px 50px;
+    background-color: #FBF7E3;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container2 div img {
+    width: 300px;
+    border-radius: 50px 50px 0 0;
+}
+
+.container2 div:nth-of-type(2) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container2 div:nth-of-type(2) .item1 h4 {
+    height: 0;
+    margin-bottom: 0;
+}
+
+.container2 div:nth-of-type(2) .item1 h5 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.container2 div:nth-of-type(3) {
+    text-align: center;
+    background-color: #F3DF85;
+    padding: 8px;
+    border-radius: 20px;
+    margin: 0 40px;
+}
+
+.container3 {
+    margin: 100px 50px;
+    max-width: 100%;
+    max-height: 800px;
+    background-color: #FBF7E3;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a2644f;
+}
+
+.container3 div:first-of-type img {
+    max-width: 70%;
+    height: auto;
+    margin-right: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container3 div:last-of-type {
+    padding: 20px;
+    box-sizing: border-box;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
